@@ -1,0 +1,29 @@
+CookIes
+
+News = FoodIes
+di bagian ini tolong kasih logo juga kak, misal ayam (gambarnya)
+gambarnya tolong kasih alt text juga kak, sesuai nama menunya. dikasih link asli gambarnya juga
+
+(HOME)
+CookIes adalah salah satu pilihan tepat saat kamu bingung akan makan apa. CookIes menyediakan berbagai rekomendasi menu makanan yang cocok untuk semua selera. CokkIes juga akan berbagi resep makanan yang kamu inginkan, ditambah informasi kalori yang dapat berguna untuk melancarkan rencana dietmu!
+
+(ABOUT)
+instagram: https://www.instagram.com/ra.rra_/
+email: 222111943@stis.ac.id
+whatsapp: 6281217409819
+
+(LOGIN) - dikasih icon
+Nama Depan
+Nama Belakang
+Email
+Password
+Verif password
+Submit
+
+(SLOGAN)
+CookIes
+Foodies - GooDish
+
+news = product
+warnanya bebas kak, yg penting bisa nyatu deh dan enak dilihat
+font nya juga bebas kak :))

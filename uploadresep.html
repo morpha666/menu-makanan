@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e0bb680df5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <title>CookIes</title>
+  </head>
+  <body>
+    <div class="container-img">
+      <img src="images/home/home3.jpg" class="bg-img" alt="alt" />
+
+      <div class="topnav">
+        <div class="leftnav">
+          <div class="logo1">
+            <img src="images/logopng.png" alt="alt" />
+          </div>
+          <div class="logo2">
+            <img src="images/tulisanpng.png" alt="alt" />
+          </div>
+        </div>
+        <div class="rightnav">
+          <div class="sidebar">
+            <input type="checkbox" id="check" />
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar2">
+              <ul>
+                <li>
+                  <i><a href="index.html">Home</a></i>
+                </li>
+                <li>
+                  <i><a href="menu.html">Menu</a></i>
+                </li>
+                <li>
+                  <i><a href="uploadresep.html">Upload Resep</a></i>
+                </li>
+                <li>
+                  <i><a href="masukan.html">Kritik & Saran</a></i>
+                </li>
+                <li>
+                  <i><a href="#about">About</a></i>
+                </li>
+                <li>
+                  <i><a href="login.html">Login</a></i>
+                </li>
+                <li>
+                  <i><a href="register.html">Register</a></i>
+                </li>
+                <li>
+                  <i><a href="userAs.html">User As</a></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div
+          class="container-form"
+          style="
+            background-color: white;
+            padding-top: 5px;
+            border: 1px solid #cbcbcb;
+            box-shadow: 1px 4px 10px 1px #aaa;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.75);
+          "
+        >
+          <form action="action_page.php" method="post">
+            <div class="title-form">
+              <h2>Upload Resep</h2>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <label for="resep_owner"><b>Nama Pemilik Resep</b></label>
+                <input
+                  id="resep_owner"
+                  type="text"
+                  placeholder="Nama Pemilik Resep"
+                  name="resep_owner"
+                  required
+                />
+              </div>
+
+              <div class="row">
+                <label for="kontak"><b>No Kontak</b></label>
+                <input
+                  id="kontak"
+                  type="text"
+                  placeholder="No Kontak"
+                  name="kontak"
+                  required
+                />
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">Kategori</button>
+                <div class="dropdown-content">
+                  <a href="#">Ayam</a>
+                  <a href="#">Bebek</a>
+                  <a href="#">Daging Sapi</a>
+                  <a href="#">Ikan Air Tawar</a>
+                  <a href="#">Seafood</a>
+                  <a href="#">Sayur</a>
+                </div>
+              </div>
+
+              <div class="row-input">
+                <div class="row">
+                  <div class="">
+                    <label for="subject1">Bahan - bahan</label>
+                  </div>
+                  <div class="textarea">
+                    <textarea
+                      id="subject1"
+                      name="subject1"
+                      placeholder="Bahan - bahan.."
+                      style="height: 200px"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="">
+                    <label for="subject2">Langkah Pembuatan</label>
+                  </div>
+                  <div class="textarea">
+                    <textarea
+                      id="subject2"
+                      name="subject2"
+                      placeholder="Langkah Pembuatan.."
+                      style="height: 200px"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <p>Apakah Bersedia untuk dihubungi:</p>
+                <div class="row-optionY">
+                  <input type="radio" id="ya" name="ya" value="ya" required/>
+                  <label for="ya">Ya</label><br />
+                </div>
+                <div class="row-optionN">
+                  <input type="radio" id="tidak" name="tidak" value="tidak" required/>
+                  <label for="tidak">Tidak</label><br />
+                </div>
+              </div>
+
+              <button type="submit">Upload</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

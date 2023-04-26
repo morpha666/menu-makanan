@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e0bb680df5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <title>CookIes</title>
+  </head>
+  <body>
+    <div class="container-img">
+      <img src="images/home/home3.jpg" class="bg-img" alt="alt" />
+      <div class="topnav">
+        <div class="leftnav">
+          <div class="logo1">
+            <img src="images/logopng.png" alt="alt" />
+          </div>
+          <div class="logo2">
+            <img src="images/tulisanpng.png" alt="alt" />
+          </div>
+        </div>
+        <div class="rightnav">
+          <div class="sidebar">
+            <input type="checkbox" id="check" />
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar2">
+              <ul>
+                <li>
+                  <i><a href="index.html">Home</a></i>
+                </li>
+                <li>
+                  <i><a href="menu.html">Menu</a></i>
+                </li>
+                <li>
+                  <i><a href="uploadresep.html">Upload Resep</a></i>
+                </li>
+                <li>
+                  <i><a href="masukan.html">Kritik & Saran</a></i>
+                </li>
+                <li>
+                  <i><a href="#about">About</a></i>
+                </li>
+                <li>
+                  <i><a href="login.html">Login</a></i>
+                </li>
+                <li>
+                  <i><a href="register.html">Register</a></i>
+                </li>
+                <li>
+                  <i><a href="userAs.html">User As</a></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div
+          class="container-form"
+          style="
+            background-color: white;
+            padding-top: 5px;
+            border: 1px solid #cbcbcb;
+            box-shadow: 1px 4px 10px 1px #aaa;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.75);
+          "
+        >
+          <form action="action_page.php" method="post">
+            <div class="title-form">
+              <h2>Kritik & Saran</h2>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="">
+                  <label for="subject">Kritik & Saran</label>
+                </div>
+                <div class="textbox">
+                  <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Kritik & Saran.."
+                    style="height: 200px"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    Anda mengetahui web ini dari mana
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Teman</a>
+                    <a href="#">Internet</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <p>Apakah Web ini membantu:</p>
+                <div class="row-optionY">
+                  <input type="radio" id="ya" name="ya" value="ya" required/>
+                  <label for="ya">Ya</label><br />
+                </div>
+                <div class="row-optionN">
+                  <input type="radio" id="tidak" name="tidak" value="tidak" required/>
+                  <label for="tidak">Tidak</label><br />
+                </div>
+              </div>
+
+              <button type="submit">Upload</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

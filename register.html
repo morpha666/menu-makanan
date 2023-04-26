@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e0bb680df5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <title>CookIes</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="leftnav">
+        <div class="logo1">
+          <img src="images/logopng.png" alt="alt" />
+        </div>
+        <div class="logo2">
+          <img src="images/tulisanpng.png" alt="alt" />
+        </div>
+      </div>
+      <div class="rightnav">
+        <div class="sidebar">
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+          </label>
+          <div class="sidebar2">
+            <ul>
+              <li>
+                <i><a href="index.html">Home</a></i>
+              </li>
+              <li>
+                <i><a href="menu.html">Menu</a></i>
+              </li>
+              <li>
+                <i><a href="uploadresep.html">Upload Resep</a></i>
+              </li>
+              <li>
+                <i><a href="masukan.html">Kritik & Saran</a></i>
+              </li>
+              <li>
+                <i><a href="#about">About</a></i>
+              </li>
+              <li>
+                <i><a href="login.html">Login</a></i>
+              </li>
+              <li>
+                <i><a href="register.html">Register</a></i>
+              </li>
+              <li>
+                <i><a href="userAs.html">User As</a></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div id="feedback-form">
+        <h2 class="header">Register</h2>
+        <div>
+          <form>
+            <input type="text" name="username" placeholder="Username" required/>
+            <input type="text" name="nama_depan" placeholder="Nama Depan" required/>
+            <input
+              type="text"
+              name="nama_belakang"
+              placeholder="Nama Belakang"
+              required
+            />
+            <input type="text" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+            <input
+              type="text"
+              name="repassword"
+              placeholder="Re-Type Password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required
+            />
+            <div class="row">
+              <p>Gender</p>
+              <div class="row-optionY">
+                <input type="radio" id="pria" name="pria" value="pria" required/>
+                <label for="pria">Pria</label>
+              </div>
+              <div class="row-optionN">
+                <input type="radio" id="wanita" name="wanita" value="wanita" required/>
+                <label for="wanita">Wanita</label>
+              </div>
+            </div>
+            <button type="submit">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
